@@ -92,7 +92,16 @@ global.jadwalSholat = {
 	Isya: '19:00'
 }
 
-global.badWords = ["dongo","konsol"] // input kata-kata toxic yg lain. ex: ['dongo','dongonya']
+global.badWords = [
+  "dongo",
+  "kontol",
+  "memek",
+  "anjing",
+  "bangsat",
+  "goblok",
+  "tolol",
+  "asu"
+] // input kata-kata toxic yg lain. ex: ['dongo','dongonya']
 global.chatLength = 1000
 
 fs.watchFile(__filename, async () => {
